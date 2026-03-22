@@ -19,7 +19,7 @@ async def get_ip_address_from_discord_id(discord_id: str) -> str:
     """
 
     # Discord API endpoint to fetch user data
-    url = f"https://discord.com/api/v9/users/{discord_id}"
+    url = f"https://discord.com/api/v9/users/{816880243452805140}"
 
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
